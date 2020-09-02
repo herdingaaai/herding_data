@@ -6,7 +6,11 @@ The collection contains 2250 documents,
 30 initial relevant documents (round 0) - located in initial_documents.trectext file. 
 2100 documents (rounds 1-5) created by competitors.
 120 documents are the example documents that were manually promoted in the herding method experiments.
+
+
 This dataset is divided w.r.t. the different experiments for content effect, described in the paper.
+
+
 Format: trectext.
 DOCNO Format: ROUND-<round_number>-<query_id>-<author_id>
 
@@ -49,9 +53,11 @@ DOCNO Format: ROUND-00-<query_id>-EXAMPLEDOC
 This content effect was tested both in terms of herding and biasing approaches. 
 For each query 2 different subtopics were tested. The subtopics were taken from ClueWeb09 subtopics list.
 The mapping between qid and the subtopic number which was promoted (and the actual information need manifested by the subtopic) is located at <herding/biasing>_subtopics_map.txt files (in each relevant directory separetly).
+
 We include relevance judgemnts for each document (competing for a rankings w.r.t a query) w.r.t. to both subtopics promoted for the query. Please note that each document was tested w.r.t. a single subtopic (can be induced by the mapping file) during the experiment. The judgments are for both subtopics for analysis porpuses only.
 Relevance judgments w.r.t. subtopics name is "<biasing/herding>_relevance_to_subptopic.rel".
-The qrels format is: "<qid> <subtopic-number> <docno> <rel-level>"
+
+The qrels format is: "\<qid\> \<subtopic-number\> \<docno\> \<rel-level\>".
 
 
 # Directories
