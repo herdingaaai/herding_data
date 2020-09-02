@@ -51,8 +51,7 @@ For each query 2 different subtopics were tested. The subtopics were taken from 
 The mapping between qid and the subtopic number which was promoted (and the actual information need manifested by the subtopic) is located at <herding/biasing>_subtopics_map.txt files (in each relevant directory separetly).
 We include relevance judgemnts for each document (competing for a rankings w.r.t a query) w.r.t. to both subtopics promoted for the query. Please note that each document was tested w.r.t. a single subtopic (can be induced by the mapping file) during the experiment. The judgments are for both subtopics for analysis porpuses only.
 Relevance judgments w.r.t. subtopics name is "<biasing/herding>_relevance_to_subptopic.rel".
-The qrels format is:
-<qid> <subtopic-number> <docno> <rel-level>
+The qrels format is: <qid> <subtopic-number> <docno> <rel-level>
 
 
 # Directories
