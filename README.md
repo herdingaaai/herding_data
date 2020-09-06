@@ -84,6 +84,6 @@ The data contained in this directory is related to the documents created in the 
 The data contained in this directory is related to the documents created in the control group. That is, no expore of any kind of manipulation for this group.
 
 ## Dummies ##
-The data contained in this directory is related to the documents taken from Raifer et al '17 dataset. Dummies with docnos "DUMMY_{1,2}" where shared over all groups. 
+The data contained in this directory is related to the documents taken from Raifer et al '17 dataset. Dummies with docnos "DUMMY_{0,1}" where shared over all groups. 
 
-Control group and biasing groups where filled with DUMMY_3 dummies (in the docno) as well.
+Control group and biasing groups where filled with DUMMY_2 dummies (in the docno) as well.
